@@ -2,7 +2,13 @@
 
 ## Description
 
-  Type Description here
+  Welcome to the SVG Logo Maker!<br />
+  
+  
+  A place where simple logos are made in just a few questions!
+
+  The SVG Logo Maker is an node.js based application for developers to create simple SVG logos to utilize in their own work.
+  So, why? Why would any one person make such a simple program? Well, becuase its <span style="color:orange">c</span><span style="color:yellow">o</span><span style="color:orange">o</span><span style="color:yellow">l</span>, and why waste time developing one when one could be created by just answering a few questions?! Sweet Victory!
 
 ## Table of Contents
   - [Description](#description)
@@ -43,15 +49,36 @@ SOFTWARE.
 
 ## Tests 
 
+To test the application before running enter this code block text in the integrated terminal after installing.
+
+    npm test
+
+To run the application, enter this code block text in the integrated terminal.
+
     node index.js
+    
 
 ## Usage
 
-  
+Once the SVG Logo Maker is initiated, the user will be prompted with a series of questions. Those questions will ask the user information regarding the specifications of the logo. The user will encounter prompts with two different types of answer inputs: List and Text.<br /> 
+
+- List Input
+  - Ex: "Select a shape for the logo:" is going to display a list of shapes for the user to choose from. To choose the desired shape, use the arrow keys on a keyboard to channel through the options. After hovering over the choice that is correct, press the 'Enter" key.<br />
+
+- Text Input
+   - Ex: "Enter a shape color:" is looking for a text input from the user, and this should only hold one answer.
+
+The application will assign the user's shape input to the correct shape object. The rest of the user's answers are included in the constructor's parameters to decide colors and text.<br />
+Upon complete the prompts, the user's new SVG logo will placed in the "New-Logo" folder, and the newly generated SVG file will be named "logo.svg".
+Navigate to the folder, right click on the svg file, and select "Open with Live Server"!
+
+
+Woah, a Congratulations are in order. "CONGRATULATIONS", a really interesting SVG logo was made (trust us, we can tell)!
 
 ## Contributing 
 
-  
+  KU Bootcamp
+
 
 ## Questions
   Application questions? 
