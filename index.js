@@ -1,4 +1,4 @@
-const { Shape } = require('./lib/shapes.js');
+const { Circle, Triangle, Square } = require('./lib/shapes.js');
 const inquirer = require('inquirer');
 const fs = require('fs');
 
@@ -28,14 +28,14 @@ const init = () => {
     ]).then((response) => {
         let svg;
         if(response.shape === 'Circle'){
-            svg = new Shape(response.shapeColor, response.text, response.textColor)
+            svg = new Circle(response.shapeColor, response.text, response.textColor)
         } else if(response.shape === 'Triangle'){
-            svg = new Shape(response.shapeColor, response.text, response.textColor)
+            svg = new Triangle(response.shapeColor, response.text, response.textColor)
         } else if(response.shape === 'Square'){
-            svg = new Shape(response.shapeColor, response.text, response.textColor)
+            svg = new Square(response.shapeColor, response.text, response.textColor)
         }
-        fs.writeFileSync('./examples/logo.svg', svg.render())
-        console.log(`Generated logo.svg`);
+        fs.writeFileSync('./New-Logo/logo.svg', svg.render())
+        console.log(`Successfully generated logo.svg, Checkout the "New-Logo" folder!`);
     })
 }
 
