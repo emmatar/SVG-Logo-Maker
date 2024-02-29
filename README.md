@@ -55,7 +55,7 @@ To test the application before running enter this code block text in the integra
 
 To run the application, enter this code block text in the integrated terminal.
 
-    node index.js
+    npm start
     
 
 ## Usage
