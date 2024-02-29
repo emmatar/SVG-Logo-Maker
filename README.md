@@ -72,8 +72,13 @@ The application will assign the user's shape input to the correct shape object. 
 Upon complete the prompts, the user's new SVG logo will placed in the "New-Logo" folder, and the newly generated SVG file will be named "logo.svg".
 Navigate to the folder, right click on the svg file, and select "Open with Live Server"!
 
+![Screenshot1](/lib/images/Start.png)
+![Screenshot2](/lib/images/Generated%20SVG%20Logo.png)
+![Screenshot3](/lib/images/SVG_example.png)
+<br />
 
 Woah, a Congratulations are in order. "CONGRATULATIONS", a really interesting SVG logo was made (trust us, we can tell)!
+
 
 ## Contributing 
 
