@@ -91,7 +91,7 @@ Woah, a Congratulations are in order. "CONGRATULATIONS", a really interesting SV
 ## Questions
   Application questions? 
   
-  GitHub Account: [emmatar](https://github.com/emmatar)
+  GitHub Account: <a href="https://github.com/emmatar" target="_blank">Elijah Matar</a>
 
   Have More Questions?!
 
