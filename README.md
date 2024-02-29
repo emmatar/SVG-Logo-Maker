@@ -77,8 +77,7 @@ Navigate to the folder, right click on the svg file, and select "Open with Live 
 ![Screenshot3](/lib/images/SVG_example.png)
 
 
-
-[Video Recording](https://drive.google.com/file/d/1Byl3l06A2OKy17BYpfc_i02P2kefxTnt/view)
+<a href="https://drive.google.com/file/d/1Byl3l06A2OKy17BYpfc_i02P2kefxTnt/view" target="_blank">Walkthrough Video</a>
 <br />
 
 Woah, a Congratulations are in order. "CONGRATULATIONS", a really interesting SVG logo was made (trust us, we can tell)!
