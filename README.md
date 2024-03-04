@@ -73,7 +73,7 @@ Upon complete the prompts, the user's new SVG logo will placed in the "examples"
 Navigate to the folder, right click on the svg file, and select "Open with Live Server"!
 
 ![Screenshot1](/lib/images/Start.png)
-![Screenshot2](/lib/images/Generated%20SVG%20Logo.png)
+![Screenshot2](/lib/images/Generated.png)
 ![Screenshot3](/lib/images/SVG_example.png)
 
 
