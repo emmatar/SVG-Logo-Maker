@@ -37,7 +37,7 @@ const init = () => {
             svg = new Square(response.shapeColor, response.text, response.textColor)
         }
         fs.writeFileSync('./examples/logo.svg', svg.render())
-        console.log(`Successfully generated logo.svg, Checkout the "New-Logo" folder!`);
+        console.log(`Successfully generated logo.svg, Checkout the "examples" folder!`);
     })
 }
 
