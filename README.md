@@ -69,7 +69,7 @@ Once the SVG Logo Maker is initiated, the user will be prompted with a series of
    - Ex: "Enter a shape color:" is looking for a text input from the user, and this should only hold one answer.
 
 The application will assign the user's shape input to the correct shape object. The rest of the user's answers are included in the constructor's parameters to decide colors and text.<br />
-Upon complete the prompts, the user's new SVG logo will placed in the "New-Logo" folder, and the newly generated SVG file will be named "logo.svg".
+Upon complete the prompts, the user's new SVG logo will placed in the "examples" folder, and the newly generated SVG file will be named "logo.svg".
 Navigate to the folder, right click on the svg file, and select "Open with Live Server"!
 
 ![Screenshot1](/lib/images/Start.png)
