@@ -1,4 +1,6 @@
-const { Circle, Triangle, Square } = require('./lib/shapes.js');
+const { Circle } = require('./lib/each-shape/circle.js');
+const {  Triangle } = require('./lib/each-shape/triangle.js');
+const { Square } = require('./lib/each-shape/square.js');
 const inquirer = require('inquirer');
 const fs = require('fs');
 
@@ -34,7 +36,7 @@ const init = () => {
         } else if(response.shape === 'Square'){
             svg = new Square(response.shapeColor, response.text, response.textColor)
         }
-        fs.writeFileSync('./New-Logo/logo.svg', svg.render())
+        fs.writeFileSync('./examples/logo.svg', svg.render())
         console.log(`Successfully generated logo.svg, Checkout the "New-Logo" folder!`);
     })
 }
